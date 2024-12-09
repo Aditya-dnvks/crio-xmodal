@@ -1,11 +1,7 @@
 import XModal from "./modal";
 
 function App() {
-  return (
-    <div className="App">
-      <XModal />
-    </div>
-  );
+  return <XModal />;
 }
 
 export default App;

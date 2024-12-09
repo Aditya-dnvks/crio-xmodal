@@ -65,7 +65,7 @@ const XModal = () => {
   };
 
   return (
-    <div className="modal">
+    <div onClick={handleOverlayClick}>
       <h1>User Details Modal</h1>
       <button onClick={() => setIsOpen(true)}>Open Form</button>
 
