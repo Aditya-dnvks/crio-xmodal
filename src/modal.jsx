@@ -74,7 +74,7 @@ const XModal = () => {
           <div className="modal-content">
             <h2>Fill Details</h2>
             <form onSubmit={handleSubmit}>
-              <div>
+              <div style={{ marginBottom: 10 }}>
                 <label>Username:</label>
                 <input
                   type="text"
@@ -84,7 +84,7 @@ const XModal = () => {
                 />
                 {errors.username && <p className="error">{errors.username}</p>}
               </div>
-              <div>
+              <div style={{ marginBottom: 10 }}>
                 <label>Email Address:</label>
                 <input
                   type="email"
@@ -94,7 +94,7 @@ const XModal = () => {
                 />
                 {errors.email && <p className="error">{errors.email}</p>}
               </div>
-              <div>
+              <div style={{ marginBottom: 10 }}>
                 <label>Phone Number:</label>
                 <input
                   type="text"
@@ -104,7 +104,7 @@ const XModal = () => {
                 />
                 {errors.phone && <p className="error">{errors.phone}</p>}
               </div>
-              <div>
+              <div style={{ marginBottom: 10 }}>
                 <label>Date of Birth:</label>
                 <input
                   type="date"
